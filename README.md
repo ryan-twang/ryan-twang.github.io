@@ -2,11 +2,11 @@
 
 My personal portfolio website showcasing research in AI Safety and Machine Learning.
 
-**Live site:** [jrosser.co.uk](https://ryan-twang.github.io)
+**Live site:** [ryannnnn](https://ryan-twang.github.io)
 
 ## Preview
 
-![Portfolio Screenshot](docs/assets/screenshot.png)
+<!-- ![Portfolio Screenshot](docs/assets/screenshot.png) -->
 
 
 ## Tech Stack
