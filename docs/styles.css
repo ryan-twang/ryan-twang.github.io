@@ -279,10 +279,12 @@ body {
 /* Nav links now centered with title - no additional margin needed */
 
 @media (min-width: 640px) {
-    #main-header {
-        padding: 1rem 2rem 0.5rem 2rem; /* Match main content sm:px-8 */
+    #main-header .header-logo img {
+      width: 4rem !important;
+      height: 4rem !important;
     }
-}
+  }
+  
 
 .group:hover .grayscale {
     filter: none;
@@ -294,7 +296,7 @@ body {
     transition: opacity 0.2s ease;
 }
 
-#main-header a[href="#"]:hover svg {
+#main-header a[href="#"]:hover img {
     transform: scale(1.05);
     transition: opacity 0.2s ease;
 }
@@ -761,7 +763,7 @@ button:focus-visible {
     .header-logo { margin-right: 0.5rem; }
 
     /* Enlarge hamburger icon visuals on mobile */
-    #toggle-navigation-menu svg {
+    #toggle-navigation-menu img {
         width: 24px;
         height: 24px;
     }
@@ -793,11 +795,16 @@ button:focus-visible {
     }
     
     /* Better logo visibility and size */
-    #main-header svg {
-        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-        height: 4rem !important; /* Increase from 3.5rem to 4rem */
-        width: 2.4rem !important;  /* Increase from 2.1rem to 2.4rem, maintaining aspect ratio */
+    /* Make the header favicon perfectly circular */
+    #main-header .header-logo img {
+        width: 3rem !important;
+        height: 3rem !important;
+        border-radius: 9999px !important;
+        overflow: hidden;           /* important */
+        object-fit: cover;          /* fills the circle */
+        display: block;             /* removes inline-img baseline weirdness */
     }
+  
 }
 
 /* Prevent text selection on interactive elements */
