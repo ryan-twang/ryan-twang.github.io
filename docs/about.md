@@ -39,6 +39,6 @@ I’m a Information System student at Carnegie Mellon University, with strong in
 
 Previously, I worked as a Software Engineer at ByteLearn, where I contributed to building and improving educational software used by students at scale.
 
-I’m currently a Co-Founder of Carnegie Mellon Quantum Computing, a student-led organization focused on making quantum computing more accessible through workshops, talks, and hands-on projects. 
+I’m currently a Founder of Carnegie Mellon Quantum Computing, a student-led organization focused on making quantum computing more accessible through workshops, talks, and hands-on projects. 
 
 Outside of coursework and projects, I enjoy pickleball, rock climbing, and watching Netflix shows
