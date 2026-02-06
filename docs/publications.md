@@ -1,5 +1,29 @@
 # Selected Projects
 
+## 2026
+<div class="publication-card">
+    <div class="publication-image">
+        <img src="assets/colors.jpg" alt="Steeles' Color Naming Game Simulation (ongoing)">
+    </div>
+    <div class="publication-content">
+        <h3 class="publication-title">
+            <a href="/ColorNamingGame" class="publication-link">
+                Emergence of Basic Color Terms via the Naming Game
+            </a>
+        </h3>
+        <div class="publication-venue">Computational Linguistics Project</div>
+        <div class="publication-authors">Ryan Wang</div>
+        <div class="publication-year">2026</div>
+        <div class="publication-tags">
+            <span class="tag tag-ai">Agent-Based Modeling</span>
+            <span class="tag tag-cog">Cognitive Science</span>
+            <span class="tag tag-lang">Linguistics</span>
+            <span class="tag tag-sim">Simulation</span>
+        </div>
+    </div>
+</div>
+
+
 ## 2025
 
 <div class="publication-card">
